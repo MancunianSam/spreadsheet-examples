@@ -1,1 +1,0 @@
-{"version":3,"sources":["styles.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA","file":"styles.8986bff4.css","sourceRoot":"../src","sourcesContent":["h1 {\n  color: white;\n  background-color: black;\n}\n.results {\n  width: 300px;\n}"]}
