@@ -55,8 +55,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     const showData: HTMLButtonElement = document.querySelector("#show-data")!
     const results: HTMLDivElement = document.querySelector("#results")!
-    const resultsArr: any[] = []
     showData.addEventListener("click", ev => {
+        const resultsArr: any[] = []
         gridOptions.api!.forEachNode((rowNode, index) => {
             resultsArr.push({
                 "make": rowNode.data.make,
@@ -64,6 +64,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 "price": rowNode.data.price
             })
         });
-        results.append(JSON.stringify({"results": resultsArr}, null, 4))
+        results.innerHTML = JSON.stringify({"results": resultsArr}, null, 4)
     })
 });
