@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <script src="./ag-grid.ts"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+        <link rel="stylesheet" href="ag-theme-bootstrap.css">
+        <link rel="stylesheet" href="ag-grid.css">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+    <div class="container">
+      <div class="row">
+        <ul class="nav nav-pills">
+          <li role="presentation"><a href="./index.html">Home</a></li>
+          <li role="presentation" class="active"><a href="./ag-grid.html">AG Grid</a></li>
+        </ul>
+        <div id="myGrid" class="ag-theme-bootstrap" style="height: 150px; width:800px;"></div>
+        <p>Change the price value below 10000 and the cell will go red</p>
+        <p>The make column is a drop down. Double click on the cell</p>
+        <div class="btn-group" role="group">
+          <button id="show-data" class="btn btn-default">Show data as JSON</button>
+          <button id="load-data" class="btn btn-default">Load data from external source</button>
+        </div>
+
+        <div class="results" id="results"></div>
+      </div>
+
+    </div>
+    </body>
+</html>
