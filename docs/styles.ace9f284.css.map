@@ -1,1 +1,0 @@
-{"version":3,"sources":["styles.css"],"names":[],"mappings":"AAAA,GACE,UAAY,CACZ,qBACF,CACA,SACE,WACF","file":"styles.ace9f284.css","sourceRoot":"../src","sourcesContent":["h1 {\n  color: white;\n  background-color: black;\n}\n.results {\n  width: 300px;\n}"]}
